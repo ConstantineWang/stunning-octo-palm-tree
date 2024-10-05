@@ -1,6 +1,5 @@
 package com.machiavellian;
 
-
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -18,5 +17,11 @@ public class MyApplicationTest {
     public void testMultiply() {
         Object result = myApplication.multiply(2, 3);
         assertEquals(result, 6);
+    }
+
+    @Test
+    public void testSubtract() {
+        Object result = myApplication.subtract(5, 3);
+        assertEquals(result, 2);
     }
 }
