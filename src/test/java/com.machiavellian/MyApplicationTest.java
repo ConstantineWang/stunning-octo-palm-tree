@@ -24,4 +24,10 @@ public class MyApplicationTest {
         Object result = myApplication.subtract(5, 3);
         assertEquals(result, 2);
     }
+
+    @Test
+    public void testDivide() {
+        Object result = myApplication.divide(6, 3);
+        assertEquals(result, 2);
+    }
 }
