@@ -19,15 +19,15 @@ public class MyApplicationTest {
         assertEquals(result, 6);
     }
 
-    // @Test
-    // public void testSubtract() {
-    // Object result = myApplication.subtract(5, 3);
-    // assertEquals(result, 2);
-    // }
+    @Test
+    public void testSubtract() {
+        Object result = myApplication.subtract(5, 3);
+        assertEquals(result, 2);
+    }
 
-    // @Test
-    // public void testDivide() {
-    // Object result = myApplication.divide(6, 3);
-    // assertEquals(result, 2);
-    // }
+    @Test
+    public void testDivide() {
+        Object result = myApplication.divide(6, 3);
+        assertEquals(result, 2);
+    }
 }
